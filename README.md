@@ -1,3 +1,5 @@
+> FOR CMAKELISTS.TXT TO WORK, IMGUI AND IMGUIZMO MUST BE IN THE SAME DIRECTORY
+
 # ImGuizmo
 
 Latest stable tagged version is 1.83. Current master version is 1.84 WIP.
