@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(ImGuizmo LANGUAGES CXX)
 
-find_path(IMGUI_INCLUDE_DIR imgui.h PATHS ${CMAKE_SOURCE_DIR}/deps/imgui)
+find_path(IMGUI_INCLUDE_DIR imgui.h PATHS imgui)
 
 if (IMGUI_INCLUDE_DIR)
     message(STATUS "ImGui found at ${IMGUI_INCLUDE_DIR}")
